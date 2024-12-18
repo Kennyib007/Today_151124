@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <main>
+        <h1>Form Class</h1>
+        <form action="/submit" method="post">
+            <div class="form-control">
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" required>
+            <p id="error"></p>
+            </div>
+
+
+        <div class="form-control">
+            <fieldset>
+                <legend>Who is your favorite student?</legend>
+                <ul>
+                <li>
+                <label>
+                <input type="radio" value="blendan" name="machine"> Blendan Smooth
+                </label>
+                </li>
+                <li>
+                <label>
+                <input type="radio" value="hoover" name="machine"> Hoover Sukhdeep
+                </label>
+                </li>
+                <li>
+                <label>
+                <input type="radio" value="toasty" name="machine"> Toasty McToastface
+                </label>
+                </li>
+                </ul>
+                </fieldset>        
+        </div>
+
+        <div class="form-control">
+            <label for="Agreement">
+                <input type="checkbox" name="Agreement" value="Agreement" id="Agreement"> I agree to watch the LMS, read the class notes, 
+                do my assignments truthfully and honestly without employing the services of a third party not limited to AI, not to dis
+
+            </label>
+             <br>
+            
+
+            <button type="submit">Submit</button>
+
+    </main>
+    
+</body>
+</html>
